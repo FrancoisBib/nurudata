@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Nurudata is a Software-as-a-Service (SaaS) application designed to convert PDF, image, and document files into structured JSON format using advanced AI agents for Retrieval-Augmented Generation (RAG). The application integrates with n8n backend for seamless workflow automation, enabling users to automate data extraction and processing tasks.
+Nurudata is a Software-as-a-Service (SaaS) application designed to convert PDF, image, and document files into structured JSON format using advanced AI agents for Retrieval-Augmented Generation (RAG).
 
 The core purpose of Nurudata is to simplify the conversion of unstructured documents into machine-readable JSON data, leveraging AI to intelligently parse and structure content for downstream applications such as data analysis, content management systems, or integration with other business tools.
 
