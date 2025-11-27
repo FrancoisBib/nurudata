@@ -134,9 +134,6 @@ nurudata/
    OPENAI_API_KEY=your_openai_key
    # Add other AI service keys as needed
 
-   # n8n Integration
-   N8N_WEBHOOK_URL=your_n8n_webhook_url
-   N8N_API_KEY=your_n8n_api_key
 
    # Other configuration
    NEXTAUTH_SECRET=your_nextauth_secret
@@ -204,11 +201,6 @@ For detailed API documentation, visit the `/api-page` route in the application o
 
 ## Deployment Notes
 
-### Recommended Platforms
-- **Vercel**: Optimal for Next.js applications with automatic deployments
-- **Netlify**: Alternative platform with good Next.js support
-- **Docker**: For containerized deployments
-
 ### Deployment Steps
 1. **Build the application**
    ```bash
@@ -221,8 +213,6 @@ For detailed API documentation, visit the `/api-page` route in the application o
 3. **Database**
    Set up production database and update `DATABASE_URL`
 
-4. **n8n Integration**
-   Configure n8n webhook URLs and API keys for production environment
 
 5. **Domain and SSL**
    Configure custom domain and SSL certificates
